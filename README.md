@@ -63,6 +63,10 @@ If you want to control the tuner, such as set the central frequency, you can sen
 
 Open a github issue if you want your app to be featured here!
 
+# Build
+
+You will need to install Android Studio, download android-ndk-r14b-linux-x86_64.zip from [android older releases](https://developer.android.com/ndk/downloads/older_releases), unpack it somewhere and point your project to it (fill in Android NDK location field in menu File->Project Structure->SDK Location box). Then the project should compile.
+
 # License
 
 This is a modification of rtl_tcp and libusb-1.0 for running on Android (also works on other Linux based systems) 
