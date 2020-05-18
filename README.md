@@ -65,7 +65,12 @@ Open a github issue if you want your app to be featured here!
 
 # Build
 
-You will need to install Android Studio, download android-ndk-r14b-linux-x86_64.zip from [android older releases](https://developer.android.com/ndk/downloads/older_releases), unpack it somewhere and point your project to it (fill in Android NDK location field in menu File->Project Structure->SDK Location box). Then the project should compile.
+You will need to install Android Studio, download android-ndk-r14b-linux-x86_64.zip from [android older releases](https://developer.android.com/ndk/downloads/older_releases), unpack it somewhere and point your project to it (fill in Android NDK location field in menu File->Project Structure->SDK Location box). Still the project will fail to compile with the following error message:
+
+```Compilation is not supported for following modules: rtlsdr, hackrf, app, rtl_tcp_andro-, RtlSdr, libusb. Unfortunately you can't have non-Gradle Java modules and Android-Gradle modules in one project.```
+
+
+Close Android Studio, delete the .idea directory, start Android Studio. Then the project should compile.
 
 # License
 
