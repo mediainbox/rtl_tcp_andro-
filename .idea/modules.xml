@@ -3,10 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RtlSdr.iml" filepath="$PROJECT_DIR$/RtlSdr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StudioProjects-rtl_tcp_andro-.iml" filepath="$PROJECT_DIR$/.idea/modules/StudioProjects-rtl_tcp_andro-.iml" group="rtl_tcp_andro-" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/hackrf/hackrf.iml" filepath="$PROJECT_DIR$/hackrf/hackrf.iml" />
       <module fileurl="file://$PROJECT_DIR$/libusb/libusb.iml" filepath="$PROJECT_DIR$/libusb/libusb.iml" />
       <module fileurl="file://$PROJECT_DIR$/rtl_tcp_andro-.iml" filepath="$PROJECT_DIR$/rtl_tcp_andro-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/rtl_tcp_andro--app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/rtl_tcp_andro--app.iml" group="rtl_tcp_andro-/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hackrf/rtl_tcp_andro--hackrf.iml" filepath="$PROJECT_DIR$/.idea/modules/hackrf/rtl_tcp_andro--hackrf.iml" group="rtl_tcp_andro-/hackrf" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libusb/rtl_tcp_andro--libusb.iml" filepath="$PROJECT_DIR$/.idea/modules/libusb/rtl_tcp_andro--libusb.iml" group="rtl_tcp_andro-/libusb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rtlsdr/rtl_tcp_andro--rtlsdr.iml" filepath="$PROJECT_DIR$/.idea/modules/rtlsdr/rtl_tcp_andro--rtlsdr.iml" group="rtl_tcp_andro-/rtlsdr" />
       <module fileurl="file://$PROJECT_DIR$/rtlsdr/rtlsdr.iml" filepath="$PROJECT_DIR$/rtlsdr/rtlsdr.iml" />
     </modules>
   </component>

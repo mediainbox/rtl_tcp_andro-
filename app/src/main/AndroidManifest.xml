@@ -59,9 +59,15 @@
         <activity
             android:name="com.sdrtouch.rtlsdr.UsbDelegate"
             android:theme = "@android:style/Theme.Translucent.NoTitleBar"
-            android:exported="true" >
+            android:exported="true"
+            android:directBootAware="true" >
             <intent-filter>
                 <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+            </intent-filter>
+            <intent-filter>
+                <!-- FIX: https://stackoverflow.com/questions/40075128/android-usb-device-attached-persistent-permission -->
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                    android:resource="@xml/usb_device_filter" />
             </intent-filter>
 
             <meta-data
